@@ -1,0 +1,65 @@
+/* .form-name{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 50%;
+margin-left: 20%;
+border: 10px solid black;
+box-shadow: 0 0  10px rgba(0, 0, 0, 0.2); 
+}
+.form-group label{
+    width: 100%;
+}
+.form-group input{
+    width: 100%;
+} */
+ .formborder{
+    justify-content: center;
+ }
+ .form{
+    justify-content: center;
+ }
+ .contrainer{
+    padding-left: 250px;
+    justify-content: center;
+ }
+ @media (max-width: 480px) {
+    .formborder {
+      animation: formSlideIn 0.8s ease-in-out;
+      padding: 10px;
+      /* margin-left: 20%; */
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+
+  
+    .btn {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .h1 {
+      font-size: 24px;
+    }
+  
+    .card {
+      border-radius: 15px;
+    }
+    .formborder {
+        animation: none; /* Remove animation */
+        padding: 5px;    /* Adjust padding */
+        display: none;
+      }
+    
+      .card {
+        border-radius: 0; /* Reset border-radius */
+      }
+    
+      /* Optional: Hide specific elements */
+      .row.justify-content-center {
+        display: none; /* Hide the row */
+      }
+  }

@@ -1,0 +1,49 @@
+.feed{ 
+    display: grid;
+    /* width: 100%; */
+    grid-template-columns: repeat(auto-fit , minmax(250px ,250px));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    padding-left: 17%;
+
+    
+    
+}
+.die{
+    text-decoration: none;
+}
+.feed2{
+    display: grid;
+    /* width: 100%; */
+    grid-template-columns: repeat(auto-fit , minmax(250px ,400px));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    padding-left: 7%;
+}
+.cards h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+.cards h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 6px 0;
+}
+.cards p{
+    font-size: 14px;
+    color: #555;
+}
+.cards iframe{
+    border-radius: 20px;
+    width: 100%;
+}
+.gungro iframe{
+    width: 200px;
+    height: 200px;
+
+}
